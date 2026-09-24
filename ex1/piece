@@ -1,0 +1,11 @@
+skinparam classAttributeIconSize 0
+
+class Piece {
+
+}
+
+class Mur {
+
+}
+
+Piece "1..2" *-- "1..*" Mur

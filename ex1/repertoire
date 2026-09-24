@@ -1,0 +1,11 @@
+skinparam classAttributeIconSize 0
+
+class Répertoire {
+
+}
+
+class Fichier {
+
+}
+
+Répertoire "1..1" *-- "0..*" Fichier : contenir

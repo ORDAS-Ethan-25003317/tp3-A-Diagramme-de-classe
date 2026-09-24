@@ -1,0 +1,11 @@
+skinparam classAttributeIconSize 0
+
+class Compagnie {
+- proposer(Vol)
+}
+
+class Vol {
+
+}
+
+Compagnie "maComp 1..*" -- "monVol 0..*" Vol
