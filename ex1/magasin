@@ -1,0 +1,20 @@
+skinparam classAttributeIconSize 0
+
+class Article {
+
+}
+
+class Livre extends Article{
+
+}
+
+
+class CD extends Article {
+
+}
+
+class Client  {
++ commander(Article a)
+}
+
+Client "0..1" --> "mon article 0..*" Article

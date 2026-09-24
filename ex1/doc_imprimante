@@ -1,0 +1,11 @@
+skinparam classAttributeIconSize 0
+
+class Document{
+  + imprimer(Imprimante &out): void
+}
+
+class Imprimante {
+ + getNom() 
+}
+
+Document ..> Imprimante
